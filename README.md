@@ -211,5 +211,132 @@ What is the difference between a GET request and a POST request?
 | **Typical Use**   | Fetching web pages, retrieving user info      | Submitting forms, uploading files, creating new records            |
 
 
+Section B — JavaScript Variables & Datatypes (Theory: 10 Questions)
+
+What is a variable in JavaScript?
+
+A variable is a named storage that holds data values. It allows you to store, modify, and retrieve information during the execution of a program.
+
+List the three ways to declare variables in JavaScript.
+Var
+Let
+Const
+
+Explain the difference between let and const.
+
+let: The value of the variable can be changed (mutable).
+
+const: The value cannot be reassigned (immutable).
 
 
+Mention the seven primitive datatypes in JavaScript.
+String
+
+Number
+
+Boolean
+
+Null
+
+Undefined
+
+BigInt
+
+Symbol
+
+What datatype is assigned to the value: true?
+
+Boolean
+
+What datatype is a JavaScript array?
+
+Object (Arrays are specialized objects in JavaScript.
+
+Give one example of a string in JavaScript.
+
+let FullName = "Salami Emmanuel"
+
+Give one example of a number in JavaScript.
+
+var Weight = 240
+
+What will be the output of this expression?
+typeof "123"
+
+"String"
+
+Explain the difference between null and undefined.
+
+null: Represents the intentional absence of any value; it must be assigned explicitly.
+
+undefined: Represents a variable that has been declared but not assigned a value.
+
+
+Section C — Coding Questions (8 Questions)
+
+Declare a variable using let and assign your name to it.
+
+Let Name = "Salami Emmanuel"
+
+Write JavaScript code to add two numbers and log the result.
+
+function TotalFruits() {
+var Basket1 = 50;
+var Basket2 = 20;
+var TotalFruitBasket = Basket1 + Basket2;
+console.log(TotalFruitBasket);
+};
+TotalFruits();
+
+
+
+Create an object called student with properties: name, age, and department.
+
+var Student = {
+ name :"Salami Emmanuel",
+ age : 25,
+ department :"BackEnd Developmnet"
+};
+console.log(Student.name);
+console.log(Student.age);
+console.log(Student.department);
+
+
+Write a JavaScript function called greet() that prints "Hello World".
+
+function greet(){
+console.log("Hello World");
+}
+greet();
+
+Write a program that checks if a number is even or odd.
+let number = 7;
+if (number % 2 === 0) {
+    console.log("Even");
+} else {
+    console.log("Odd");
+}
+// Output: Odd
+
+
+Create an array of 5 colors and print the first color.
+
+let colors = ["Red", "Blue", "Green", "Yellow", "Purple"];
+console.log(colors[0]); // Output: Red
+
+
+Write a function that returns the square of a number passed into it.
+
+function square(num) {
+    return num * num;
+}
+console.log(square(5)); // Output: 25
+
+
+Write a small code snippet that converts a string to a number:
+let value = "42";
+let numberValue = Number(value);
+console.log(numberValue); // Output: 42
+
+let value = "42";
+// convert to number here
